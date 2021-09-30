@@ -96,6 +96,8 @@
 <Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">today:=Date(timezone=Calendar:-HostTimeZone()):
 Dato = cat(DayOfMonth(today), &quot;. &quot;, [&quot;januar&quot;,&quot;februar&quot;,&quot;marts&quot;,&quot;april&quot;,&quot;maj&quot;,&quot;juni&quot;,&quot;juli&quot;,&quot;august&quot;,&quot;september&quot;,&quot;oktober&quot;,&quot;november&quot;,&quot;december&quot;][Month(today)], &quot; &quot;, Year(today));</Text-field>
 </Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUkjbWlHRiQ2JVElRGF0b0YnLyUnaXRhbGljR1EldHJ1ZUYnLyUsbWF0aHZhcmlhbnRHUSdpdGFsaWNGJy1JI21vR0YkNi1RKSZlcXVhbHM7RicvRjNRJ25vcm1hbEYnLyUmZmVuY2VHUSZmYWxzZUYnLyUqc2VwYXJhdG9yR0Y9LyUpc3RyZXRjaHlHRj0vJSpzeW1tZXRyaWNHRj0vJShsYXJnZW9wR0Y9LyUubW92YWJsZWxpbWl0c0dGPS8lJ2FjY2VudEdGPS8lJ2xzcGFjZUdRLDAuMjc3Nzc3OGVtRicvJSdyc3BhY2VHRkwtRiw2JVEzMzAufnNlcHRlbWJlcn4yMDIxRidGL0YyRjk=">L0klRGF0b0c2IkkzMzAufnNlcHRlbWJlcn4yMDIxR0Yk</Equation></Text-field>
+</Output>
 </Group>
 <Group labelreference="L1930" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
 <Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
