@@ -292,7 +292,7 @@ with(plots):</Text-field>
 </Input>
 </Group>
 <Group hide-input="false" labelreference="L2722" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Shift + F5 s\303\270rger for, at koden ikke g\303\270r noget! Smart n\303\245r det bare skal v\303\246re p\303\246nt midt i en s\303\246tning, som f.eks. </Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUklbXN1cEdGJDYlLUkjbW5HRiQ2JFEiNEYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiRRIjJGJ0YyLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvRjNRJ2l0YWxpY0YnLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0Y9RjI=">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUklbXN1cEdGJDYlLUkjbW5HRiQ2JFEiNEYnLyUsbWF0aHZhcmlhbnRHUSdub3JtYWxGJy1GIzYmLUYvNiRRIjJGJ0YyLyUnaXRhbGljR1EldHJ1ZUYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvRjNRJ2l0YWxpY0YnLyUxc3VwZXJzY3JpcHRzaGlmdEdRIjBGJ0Y9RjI=</Equation><Font encoding="UTF-8">, som ikke g\303\270r noget. </Font></Text-field>
+<Input><Text-field style="Text" layout="Normal"><Font encoding="UTF-8">Shift + F5 s\303\270rger for, at koden ikke g\303\270r noget! Smart n\303\245r det bare skal v\303\246re p\303\246nt midt i en s\303\246tning, som f.eks. </Font><Equation executable="false" style="2D Math" input-equation="" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUklbXN1cEdGJDYlLUkjbW5HRiQ2JVEiNEYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUYjNiYtRi82JVEiMkYnRjJGNS8lJ2l0YWxpY0dRJXRydWVGJ0YyL0Y2USdpdGFsaWNGJy8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGMkY1">LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYlLUklbXN1cEdGJDYlLUkjbW5HRiQ2JVEiNEYnLyUrZXhlY3V0YWJsZUdRJmZhbHNlRicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUYjNiYtRi82JVEiMkYnRjJGNS8lJ2l0YWxpY0dRJXRydWVGJ0YyL0Y2USdpdGFsaWNGJy8lMXN1cGVyc2NyaXB0c2hpZnRHUSIwRidGMkY1</Equation><Font encoding="UTF-8">, som ikke g\303\270r noget. </Font></Text-field>
 </Input>
 </Group>
 <Group hide-input="false" labelreference="L2716" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
@@ -351,13 +351,17 @@ with(plots):</Text-field>
 <Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
 </Input>
 </Group>
-<Group labelreference="L2734" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Group hide-input="false" labelreference="L2734" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal">3+4*x^2</Text-field>
 </Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUYjNiYtSSNtbkdGJDYkUSI0RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUkjbW9HRiQ2LVExJkludmlzaWJsZVRpbWVzO0YnRjEvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjovJSlzdHJldGNoeUdGOi8lKnN5bW1ldHJpY0dGOi8lKGxhcmdlb3BHRjovJS5tb3ZhYmxlbGltaXRzR0Y6LyUnYWNjZW50R0Y6LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGSS1JJW1zdXBHRiQ2JS1JI21pR0YkNiVRInhGJy8lJ2l0YWxpY0dRJXRydWVGJy9GMlEnaXRhbGljRictRi42JFEiMkYnRjEvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnRjEtRjU2LVEnJnBsdXM7RidGMUY4RjtGPUY/RkFGQ0ZFL0ZIUSwwLjIyMjIyMjJlbUYnL0ZLRlxvLUYuNiRRIjNGJ0YxRjE=">LCYqJEkieEc2IiIiIyIiJSIiJCIiIg==</Equation></Text-field>
+</Output>
 </Group>
-<Group labelreference="L2733" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
-<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
+<Group hide-input="false" labelreference="L2733" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
+<Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"><Label label="L2734" view="label" executable="true"></Label>*2</Text-field>
 </Input>
+<Output><Text-field style="2D Output" layout="Maple Output"><Equation executable="false" style="2D Output" display="LUklbXJvd0c2Iy9JK21vZHVsZW5hbWVHNiJJLFR5cGVzZXR0aW5nR0koX3N5c2xpYkdGJzYmLUYjNiYtSSNtbkdGJDYkUSI4RicvJSxtYXRodmFyaWFudEdRJ25vcm1hbEYnLUkjbW9HRiQ2LVExJkludmlzaWJsZVRpbWVzO0YnRjEvJSZmZW5jZUdRJmZhbHNlRicvJSpzZXBhcmF0b3JHRjovJSlzdHJldGNoeUdGOi8lKnN5bW1ldHJpY0dGOi8lKGxhcmdlb3BHRjovJS5tb3ZhYmxlbGltaXRzR0Y6LyUnYWNjZW50R0Y6LyUnbHNwYWNlR1EmMC4wZW1GJy8lJ3JzcGFjZUdGSS1JJW1zdXBHRiQ2JS1JI21pR0YkNiVRInhGJy8lJ2l0YWxpY0dRJXRydWVGJy9GMlEnaXRhbGljRictRi42JFEiMkYnRjEvJTFzdXBlcnNjcmlwdHNoaWZ0R1EiMEYnRjEtRjU2LVEnJnBsdXM7RidGMUY4RjtGPUY/RkFGQ0ZFL0ZIUSwwLjIyMjIyMjJlbUYnL0ZLRlxvLUYuNiRRIjZGJ0YxRjE=">LCYqJEkieEc2IiIiIyIiKSIiJyIiIg==</Equation></Text-field>
+</Output>
 </Group>
 <Group labelreference="L2625" drawlabel="true" applyint="true" applyrational="true" applyexponent="false">
 <Input><Text-field prompt="&gt; " style="Maple Input" layout="Normal"></Text-field>
